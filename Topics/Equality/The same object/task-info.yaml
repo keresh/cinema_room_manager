@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: The variable points to a simple object with one property
+- text: ' In any case'
+- text: The variable points to an immutable object
+- text: 'The variable is Int '
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11241#comment
+status: Solved
+record: -1
